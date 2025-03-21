@@ -32,8 +32,8 @@ const Cell = styled.div<ThemeProps>`
 `;
 
 const FittedImage = styled.img<MatrixCell & ThemeProps>`
-  border: ${({ isActive }) => (isActive ? 5 : 0)}px solid
-    ${({ theme: { primaryColor } }) => primaryColor};
+  border: ${({ isActive }) => (isActive ? 2 : 0)}px solid
+    ${({ theme: { specialColor } }) => specialColor};
   box-sizing: content-box;
   max-width: 100%;
   position: relative;

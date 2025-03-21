@@ -28,9 +28,9 @@ interface Theme {
 
 export default {
   bonusColor: "orange",
-  borderStyle: "0.5px solid #666",
-  cellSize: "30px",
+  borderStyle: "0.25px solid #666",
+  cellSize: "60px",
   primaryColor: "#9082CD",
   secondaryColor: "#666",
-  specialColor: "gold",
+  specialColor: "green",
 } as Theme;
